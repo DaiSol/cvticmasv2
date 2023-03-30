@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio personal</title>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- Box Icons -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     
+     <!-- diseño de header -->
+     <header class="header">
+          <a href="#" class="logo">Curriculum Vitae</a>
+
+          <i class='bx bx-menu' id="menu-icon"></i>
+          <!-- menu bar -->
+          <nav class="navbar">
+               <a href="#home" class="active">Inicio</a>
+               <a href="#about">Sobre mi</a>
+               <a href="#services">Experiencia</a>
+               <a href="#portfolio">Portfolio</a>
+               <a href="#contact">Contacto</a>
+          </nav>
+     </header>
+
+     <!-- Inicio -->
+     <section class="home" id="home">
+          <div class="home-content">
+               
+               <h1>Ana Ponce</h1>
+               <h3> <span>Frontend Developer <br> Editora Audiovisual</span> </h3>
+               <p> <i class='bx bx-envelope'></i> anaponcean@mail.com <br> <i class='bx bx-location-plus' ></i> La Plata - Bs As</p>
+
+               <div class="social-media">
+                    <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube' ></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+               </div>
+               <a href="#" class="btn">Descargar CV</a>
+          </div>
+
+          <div class="home-img">
+               <img src="/imgs/photo1b.png" alt="">
+          </div>
+     </section>
+     <!-- sobre mi -->
+     <section class="about" id="about">
+          <div class="about-img">
+               <img src="imgs/photo1b.png" alt="" width="400px">
+          </div>
+
+          <div class="about-content">
+               <h2 class="heading">Estudios <span>realizados</span></h2>
+               <h3>Desarrollo Frontend</h3>
+               <p>Estudios cursados en TICMAS Academy</p>
+
+               <h3>Edición Audiovisual</h3>
+               <p>Universidad Nacional de La Plata - 2015</p>
+
+               <h3>Diseño Gráfico</h3>
+               <p>Universidad Nacional de La Plata - 2019</p>
+
+               <a href="#" class="btn">Leer más</a>
+          </div>
+     </section>
+
+     <!-- Servicios -->
+     <section class="services" id="services">
+          <h2 class="heading">Experiencia <span>Laboral</span> </h2>
+
+          <div class="services-container">
+               <div class="services-box">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Desarrollo Web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, odit?</p>
+                    <a href="#" class="btn">Leer más</a>
+               </div>
+               
+               <div class="services-box">
+                    <i class='bx bxs-palette' ></i>
+                    <h3>Edición Gráfico-Digital</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, odit?</p>
+                    <a href="#" class="btn">Leer más</a>
+               </div>
+     
+               <div class="services-box">
+                    <i class='bx bx-movie-play'></i>
+                    <h3>Producción Audiovisual</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, odit?</p>
+                    <a href="#" class="btn">Leer más</a>
+               </div>
+          </div>
+
+
+     </section>
+     <!-- Portfolio -->
+     <section class="portfolio" id="portfolio">
+          <h2 class="heading">Últimos <span>proyectos</span></h2>
+
+          <div class="portfolio-container">
+               <div class="portfolio-box">
+                    <img src="imgs/webdesign.jpeg" alt="" >
+                    <div class="portfolio-layer">
+                         <h4>Web Design</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, incidunt?</p>
+                         <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+               </div>
+
+               <div class="portfolio-box">
+                    <!-- <img src="imgs/webdesign.jpeg" alt=""> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DMCHQGMBNmE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                    <div class="portfolio-layer">
+                         <h4>Videoclip</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, incidunt?</p>
+                         <a href="https://www.youtube.com/watch?v=DMCHQGMBNmE" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    </div>
+               </div>
+
+               <div class="portfolio-box">
+                    <img src="imgs/term.jpg" alt=""  >
+                    <div class="portfolio-layer">
+                         <h4>Image Editing</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, incidunt?</p>
+                         <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+               </div>
+          </div>
+     </section>
+     
+     <!-- contacto -->
+     <section class="contact" id="contact">
+          <h2 class="heading">Contacta<span> Me!</span></h2>
+
+          <form action="#">
+               <div class="input-box">
+                    <input type="text" placeholder="Nombre completo">
+                    <input type="email" placeholder="E-mail">
+               </div>
+               <div class="input-box">
+                    <input type="number" placeholder="Nro de Celular">
+                    <input type="text" placeholder="Asunto">
+               </div>
+               <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+               <input type="submit" value="Enviar mensaje" class="btn">
+
+          </form>
+     </section>
+
+     <!-- footer -->
+     <footer class="footer">
+          <div class="footer-text">
+               <p>Copyright &copy; 2023 by DS | Todos los derechos reservados.</p>
+          </div>
+          <div class="footer-iconTop">
+               <a href="#home">
+                    <i class='bx bx-up-arrow-alt' ></i>
+               </a>
+          </div>
+     </footer>
+
+ 
+     <!-- js -->
+     <script src="/js/script.js"></script>
+</body>
+</html>
